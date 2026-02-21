@@ -1,0 +1,33 @@
+{
+  "name": "teseo",
+  "version": "1.0.0",
+  "description": "Aplicacion de administracion modularizada",
+  "keywords": [
+    "teseo",
+    "sistema",
+    "admin"
+  ],
+  "homepage": "https://github.com/Huntercookie799/teseo#readme",
+  "bugs": {
+    "url": "https://github.com/Huntercookie799/teseo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huntercookie799/teseo.git"
+  },
+  "license": "ISC",
+  "author": "Huntercookie799",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "googleapis": "^171.4.0"
+  }
+}
